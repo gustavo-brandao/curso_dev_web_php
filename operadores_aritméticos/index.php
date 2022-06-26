@@ -23,7 +23,8 @@ echo "Resto da divisão: $result_resto <br><br>";
 echo "<hr>";
 
 $cc = 38564.32;
-/* A função number_format é utilizada para converter o valor em Real */
+/* A função number_format é utilizada para converter o valor em Real 
+Colocar a variável, que serão duas casas decimais, separadas por vírgula e terá o ponto para separar o milhar */
 echo "Valor na conta corrente: R$ " . number_format($cc, 2, ",", ".") . "<br><br>";
 
 $debito = 200.16;
